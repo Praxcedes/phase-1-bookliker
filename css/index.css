@@ -1,4 +1,54 @@
 body {
-	display: grid;
-	grid-template-columns: 2fr 8fr
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#container {
+  display: flex;
+  gap: 20px;
+}
+
+#list {
+  width: 30%;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 0;
+  list-style: none;
+}
+
+#list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#list li:hover {
+  background-color: #f0f0f0;
+}
+
+#show-panel {
+  width: 70%;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #0056b3;
 }
